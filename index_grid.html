@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style_grid.css">
+</head>
+<body>
+    <div id="calculator">
+        <form name="form">
+            <input class="display" name="display"/>
+        </form>
+
+        <form class="calculator_form">
+
+           <!--  <input class="button"  type="button" value="sin" onclick="func('sin')">
+            <input class="button" type="button" value="cos" onclick="func('cos')">
+            <input class="button" type="button" value="tan" onclick="func('tan')">
+            <input class="button" type="button" value="ctn" onclick="func(tan)"> -->
+            <input class="button" type="button" value="sin" onclick="sinus()">
+            <input class="button" type="button" value="cos" onclick="cocinus()">
+            <input class="button" type="button" value="tan" onclick="tangens()">
+            <input class="button" type="button" value="ctn" onclick="catangens()">
+
+            <input class="button" type="button" value="%" onclick="percent()">
+            <input class="button" type="button" value="!a" onclick="factorials()">
+            <input class="button" type="button" value="2*" onclick="stepen()">
+            <input class="button" type="button" value="grad" onclick="grad()">
+
+            
+        </form>
+
+
+        <form class="calculator_form">
+
+            <input class="button" type="button" value="1" onclick="insert(1)">
+            <input class="button" type="button" value="2" onclick="insert(2)">
+            <input class="button" type="button" value="3" onclick="insert(3)">
+            <input class="button" id='equal' type="button" value="=" >
+
+            <input class="button" type="button" value="4" onclick="insert(4)">
+            <input class="button" type="button" value="5" onclick="insert(5)">
+            <input class="button" type="button" value="6" onclick="insert(6)">
+            <input class="button" type="button" value="+" onclick="insert('+')">
+
+            <input class="button" type="button" value="7" onclick="insert(7)">
+            <input class="button" type="button" value="8" onclick="insert(8)">
+            <input class="button" type="button" value="9" onclick="insert(9)">
+            <input class="button" type="button" value="-" onclick="insert('-')">
+
+            <input class="button" type="button" value="C" onclick="clean()">
+            <input class="button" type="button" value="<" onclick="back()">
+            <input class="button" type="button" value="/" onclick="insert('/')">
+            <input class="button" type="button" value="x" onclick="insert('*')">
+
+            <input class="button" type="button" value="0" onclick="insert('0')">
+            <input class="button" type="button" value="." onclick="insert('.')">
+
+           <!--  <div class="operators">
+                <button id="plus" type="button" value="+" class="key button">+</button>
+                <button id="umnogenie" type="button" value="*" class="key button">*</button>
+                <button id="button_0" type="button" value="0" class="key button">0</button>
+                <button id="minus" type="button" value="-" class="key button">-</button>
+                <button id="divide" type="button" value="/" class="key button">/</button>
+                <button id="point" type="button" value="." class="key button">.</button>
+                <button id="equil" type="button" value="=" class="key button">=</button>
+                <button id="del" type="button" value="C" class="key button">C</button>
+                <button id="plus_minus" type="button" value="-/+" class="key button">-/+</button>
+            </div>
+                
+            
+            
+            <div class="numbers">
+                <button id="button_1" type="button" value="1" class="key button">1</button>
+                <button id="button_2" type="button" value="2" class="key button">2</button>
+                <button id="button_3" type="button" value="3" class="key button">3</button>
+                <button id="button_4" type="button" value="4" class="key button">4</button>
+                <button id="button_5" type="button" value="5" class="key button">5</button>
+                <button id="button_6" type="button" value="6" class="key button">6</button>
+                <button id="button_7" type="button" value="7" class="key button">7</button>
+                <button id="button_8" type="button" value="8" class="key button">8</button>
+                <button id="button_9" type="button" value="9" class="key button">9</button>
+            </div>
+
+           
+
+            
+            <div class="operators">
+                <button id="sinus" type="button" value="sin" class="key button">sin</button>
+                <button id="cosinus" type="button" value="cos" class="key button">cos</button>
+                <button id="tangens" type="button" value="tg" class="key button">tg</button>
+                <button id="catangens" type="button" value="ctg" class="key button">ctg</button>
+                <button id="grad" type="button" value="grad" class="key button">grad</button>
+                <button id="pr" type="button" value="%" class="key button">%</button>
+                <button id="rootBtn" type="button" value="&radic;" class="key button">&radic;</button>
+                <button id="factorial" type="button" value="!a" class="key button">!a</button>
+                <button id="stepen" type="button" value="2*" class="key button">2*</button>
+                
+                
+            </div> 
+ -->
+        </form>
+
+    </div>
+
+    <div class='save_clear'>
+        <button class='button' id="save">Сохранить вычисление</button>
+        <button class='button' id="clear">Удалить вычисление</button>
+    </div>
+    <div id="lap">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
